@@ -1,17 +1,6 @@
 #!/usr/bin/python
 ########################################################################################################
 #                                                                                                      #
-# The following code has been tested and it works '24Nov2020'                                          #
-#                                                                                                      #
-# Note: It is important that the 'nodes', 'edges' and 'labels' all match in terms                      #
-# of their dictionary structures. If the key for the nodes are in integer then                         #
-# all the keys for 'edges' and 'labels' must also be in integer. If it is in string                    #
-# then all of them needs to be a string.                                                               #
-# Note: The indexing for every tuple and list must be correct. Like most arrays we reference it        #
-#       starting with zero. But on the assignment to the node number for the processes, we start of    #
-#       with 1. Beware of this. To ensure that everything is in sync, always check the contents of     #
-#       the tuple of list.                                                                             #
-#                                                                                                      #
 # Program note:                                                                                        #
 #     weight used in defining 'G' digraph is the task time for each node.                              #
 #     rpw_weight will be the weight used to 'rank' each of the node, in accordance to the rules in     #
