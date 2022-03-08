@@ -1,0 +1,13 @@
+Assembly frame none
+Assemble cutter
+Assemble motor and G.B.
+Assemble crank
+Assemble pickup
+Assemble belt cover
+Assemble tensioned and cup
+Assemble bucket and disk with shaft
+Assemble feed motor and belt
+Assemble circuit
+Assemble hopper
+Assemble wires
+Assemble outer cover
