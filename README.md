@@ -37,7 +37,7 @@ The structure of the file and directories would be:
 One of the important part of this whole exercise is to ensure that the time units are correct. You will need
 to specify the unit in time, sec/min/hours/days, during the script execution. 
 The command to execute this script:
-  python /directory/for/python/file/RankedPositionalWeightMethod.py -d /directory/for/python/file/<example> -u min
+  python /directory/for/python/RankedPositionalWeightMethod.py -d /directory/for/python/file/<example> -u min
   
 The output of from this script are:
 1. The new assembly line process with task combined, based on the takt time.
