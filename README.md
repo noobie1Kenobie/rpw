@@ -51,3 +51,5 @@ for the input assembly line problem, it is just one possible solution for the pr
 a solution for the assembly line problem would yield a different solution. Some research are dedicated to in comparing
 the efficiency produced by different types of 'algorithm' in simple assembly line problems. 
 
+  
+Slava Ukraini
