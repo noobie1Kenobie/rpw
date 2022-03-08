@@ -39,6 +39,11 @@ to specify the unit in time, sec/min/hours/days, during the script execution.
 The command to execute this script:
   python /directory/for/python/RankedPositionalWeightMethod.py -d /directory/for/python/file/<example> -u min
   
+The example in this project is taken from:
+  Ghutukade, S. T., Sawant, M. S., "Use of Ranked Position Weighted Method for Assembly Line Balancing",
+  International Journal of Advanced Engineering Research and Studies, Jul-Sept 2013
+
+  
 The output of from this script are:
 1. The new assembly line process with task combined, based on the takt time.
 2. The new assembly line process with task combined, base on the the highest processing time.
