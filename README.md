@@ -34,10 +34,27 @@ The structure of the file and directories would be:
     - demand_worktime.txt
     - tasktime.txt
     - tasknames.txt
+
 One of the important part of this whole exercise is to ensure that the time units are correct. You will need
 to specify the unit in time, sec/min/hours/days, during the script execution. 
 The command to execute this script:
   python /directory/for/python/RankedPositionalWeightMethod.py -d /directory/for/python/file/<example> -u min
+
+Help information for the script:
+  python /home/gambit/scripts/python/rpw/RankedPositionalWeightMethod2.py -h
+  usage: RankedPositionalWeightMethod2.py [-h] [-d DIR] [-u UNIT]
+
+  Program to determine the order for a Balanced Line using Ranked Positional Weight Method
+
+  options:
+    -h, --help            show this help message and exit
+    -d DIR, --dir DIR     The directory to work on, there should be a folder 'data' containing all the data to
+                          process.
+    -u UNIT, --unit UNIT  Specifies the base unit for calculations. Values to use 'hrs'=hours, 'min'=minutes
+                          and 'sec'=seconds
+
+  Ranked Positional Weight Method
+
   
 The example in this project is taken from:
   Ghutukade, S. T., Sawant, M. S., "Use of Ranked Position Weighted Method for Assembly Line Balancing",
